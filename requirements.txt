@@ -1,0 +1,6 @@
+streamlit
+python-dotenv
+Pillow
+transformers
+streamlit-extras
+langchain
