@@ -1,5 +1,3 @@
-Sure, here is a readme based on the code provided:
-
 # ViLT-GPT 🤗💬👁️
 
 
