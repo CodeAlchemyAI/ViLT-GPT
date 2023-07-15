@@ -1,9 +1,9 @@
 Sure, here is a readme based on the code provided:
 
-# LLM Chat App with Image Processing 🤗💬👁️
+# ViLT-GPT 🤗💬👁️
 
-LLM Chat App with Image Processing 🤗💬👁️
-The LLM Chat App is an innovative application that gives the conversational AI ChatGPT the ability to "see". By integrating OpenAI's Language Models (LLM) and LangChain with Vision-and-Language models, this app can answer queries based on the content of images. Now, you can interact with your images, ask questions and get informative responses.
+
+ViLT-GPT is an innovative application that gives the conversational AI ChatGPT the ability to "see". By integrating OpenAI's Language Models (LLM) and LangChain with Vision-and-Language models, this app can answer queries based on the content of images. Now, you can interact with your images, ask questions and get informative responses.
 
 ## Getting Started
 
@@ -21,10 +21,10 @@ Before running the app, make sure you have the following libraries installed:
 - LangChain
 - Streamlit Extras
 
-You can install these dependencies using pip:
+The requirements can be installed from the requirements.txt file using pip:
 
 ```bash
-pip install python-dotenv streamlit PIL transformers langchain streamlit-extras
+pip install -r requirements.txt
 ```
 
 ### Installing
