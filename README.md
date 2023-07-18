@@ -19,11 +19,6 @@ Before running the app, make sure you have the following libraries installed:
 - LangChain
 - Streamlit Extras
 
-The requirements can be installed from the requirements.txt file using pip:
-
-```bash
-pip install -r requirements.txt
-```
 
 ### Installing
 
@@ -41,7 +36,24 @@ git clone https://github.com/your-repository-url.git
 cd repository-name
 ```
 
-3. Run the application.
+3. Create virtual environment and activate
+```bash
+python -m venv env
+source env/bin/activate
+```
+
+4. Install package requirements
+```bash
+pip install -r requirements.txt
+```
+
+5. Set environment variable(s)
+```bash
+cp .env.example .env
+# modify OPENAI_API_KEY in .env file
+```
+
+6. Run the application.
 
 ```bash
 streamlit run app.py
