@@ -69,7 +69,7 @@ def app():
         st.write('Made by [Nicolas tch](https://twitter.com/nicolas_tch)')
         st.write('Repository [Github](https://github.com/CodeAlchemyAI/ViLT-GPT)')
 
-    uploaded_file = st.file_uploader('Upload your IMAGE', type=['png', 'jpeg', 'jpg'], key="graphUploader")
+    uploaded_file = st.file_uploader('Upload a chart image.', type=['png', 'jpeg', 'jpg'], key="graphUploader")
 
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
